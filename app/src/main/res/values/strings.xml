@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">ACC Employee</string>
+    <string name="empty">Field cannot be empty</string>
+    <string name="username">Mobile/Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+
+    <string name="login_with">Or login with</string>
+    <string name="terms_and_privacy">By signing up you agree to our <a href="terms:">Terms of Service</a> and <a href="privacy:">Privacy Policy.</a></string>
+    <string name="facebook_app_id">1544847579039393</string>
+
+    <string name="fb_login_protocol_scheme">fb1544847579039393</string>
+
+</resources>

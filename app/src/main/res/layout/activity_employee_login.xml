@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    tools:context=".activity.EmployeeLogin">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+    <ImageView
+        android:id="@+id/iv_loginAcc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="80dp"
+        android:padding="20dp"
+        android:layout_gravity="center_horizontal"
+        app:srcCompat="@drawable/acc_logo" />
+
+    <EditText
+        android:id="@+id/et_loginUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_marginBottom="10dp"
+        android:padding="10dp"
+        android:layout_gravity="center_horizontal"
+        android:hint="@string/username"
+        android:textSize="17sp"
+        android:background="@drawable/edittext_border" />
+    <EditText
+        android:id="@+id/et_loginPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_marginBottom="20dp"
+        android:padding="10dp"
+        android:layout_gravity="center_horizontal"
+        android:hint="@string/password"
+        android:textSize="17sp"
+        android:background="@drawable/edittext_border" />
+
+    <Button
+        android:id="@+id/btn_loginLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:background="#00BCD4"
+        android:textColor="#fff"
+        android:text="@string/login"
+        android:textAllCaps="false"/>
+
+    <TextView
+        android:id="@+id/tv_loginTermsPrivacy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:padding="5dp"
+        android:gravity="center_horizontal"
+        android:textColor="#000"
+        android:text="@string/terms_and_privacy"
+        ></TextView>
+    <TextView
+        android:id="@+id/tv_loginOrLoginWith"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:padding="5dp"
+        android:gravity="center_horizontal"
+        android:textColor="#000"
+        android:text="@string/login_with" />
+
+        <com.facebook.login.widget.LoginButton
+            android:id="@+id/login_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="20dp"/>
+
+        <com.google.android.gms.common.SignInButton
+            android:id="@+id/sign_in_button"
+            android:layout_width="match_parent"
+            android:layout_margin="20dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            />
+
+
+    </LinearLayout>
+</ScrollView>
